@@ -1,0 +1,93 @@
+@media only screen and (max-width:1464px) {
+    .burger {
+        visibility: visible;
+        width: 8.9vw;
+        right: 7px;
+    }
+    #navbar {
+        width: 100vw;
+    }
+    .nav-section {
+        flex-direction: column;
+        height: 0px;
+        overflow: hidden;
+        transition: all 0.8s ease-in;
+    }
+    .show-nav {
+        height: 200px;
+    }
+    #intro {
+        height: 70vw;
+    }
+    .box-main {
+        height: 66vw;
+        width: 95vw;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .pic img {
+        height: 36px;
+        width: 32px;
+    }
+    .nav-items {
+        margin: 11px 14px;
+    }
+    .nav-items a {
+        font-size: 0.7em;
+    }
+    .nav-menu {
+        flex-direction: column;
+    }
+    .content {
+        margin: 0px 15px;
+    }
+    .sec {
+        width: 85vw;
+        flex-direction: column-reverse;
+    }
+    .snap {
+        height: 191px;
+    }
+    .snap img {
+        height: 147px;
+        max-width: 40vw;
+        border: 2px solid grey;
+        border-radius: 14px;
+        margin-top: 12px;
+    }
+    .text-big {
+        font-size: 1.1rem;
+        padding-left: 1rem;
+    }
+    .text-small {
+        font-size: 0.6em;
+        padding-left: 1rem;
+    }
+    .btn {
+        font-size: 0.7rem;
+    }
+    .front {
+        height: 124px;
+        width: 91px;
+    }
+    .front img {
+        height: 100px;
+        width: 103px;
+    }
+    .bt-cont {
+        width: 30vw;
+    }
+    #contact::before {
+        width: 99%;
+        height: 93%;
+    }
+    #form-group input,
+    textarea {
+        width: 44%;
+    }
+    #foot {
+        margin-top: -1px;
+        font-size: 8px;
+        height: 18px;
+    }
+}
